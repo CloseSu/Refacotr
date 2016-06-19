@@ -1,0 +1,17 @@
+package ChangeValueToReference;
+
+public class Customer {
+	private final String _name;
+	
+	public static Customer create(String name){
+		return new Customer(name);
+	}
+	private static Dictionary _instances = new Hashtable();
+	private Customer(String name){
+		_name = name;
+	}
+	public String getName(){
+		return _name;
+	}
+
+}

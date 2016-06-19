@@ -1,0 +1,15 @@
+package ReplaceArrayWithObject;
+
+public class TestPerformance {
+	
+	
+	
+	
+	public static void main(String[] args){
+		Perfomance row = new Perfomance();
+		row._data [0] = "liverpool";
+		row._data [1] = "15";
+		String name = row._data[0];
+		
+	}
+}

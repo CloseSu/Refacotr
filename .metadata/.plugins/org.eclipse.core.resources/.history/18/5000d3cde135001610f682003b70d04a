@@ -1,0 +1,6 @@
+package ReplaceDataValueWithObject;
+
+public class Order {
+	private String _customer;
+	
+}

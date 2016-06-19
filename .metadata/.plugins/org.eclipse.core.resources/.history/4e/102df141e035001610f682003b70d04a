@@ -1,0 +1,9 @@
+package SelfEncapsulateField;
+
+public class IntRange {
+	private int _low,_high;
+	
+	boolean includes(int arg){
+		return arg >= _low && <= _high;
+	}
+}

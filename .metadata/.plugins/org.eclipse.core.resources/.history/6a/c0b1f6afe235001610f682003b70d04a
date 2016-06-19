@@ -1,0 +1,8 @@
+package ReplaceDataValueWithObject;
+
+public class Customer {
+	private String _name;
+	public Customer(String name){
+		_name = name;
+	}
+}

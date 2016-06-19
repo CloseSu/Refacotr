@@ -1,0 +1,10 @@
+package SelfEncapsulateField;
+
+public class CappedRange extends IntRange{
+	private int _cap;
+	CappedRange(int low, int high, int cap){
+		super(low,high);
+		_cap = cap;
+	}
+	
+}

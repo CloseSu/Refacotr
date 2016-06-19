@@ -1,0 +1,6 @@
+package ReplaceArrayWithObject;
+
+public class Perfomance {
+	public String[] _data = new String[3];
+	
+}
