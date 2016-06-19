@@ -1,0 +1,16 @@
+package IntroduceLocalExtension;
+
+import java.util.Date;
+
+public class MfDateSubSubclass extends Date{
+	public MfDateSubSubclass (String dateString){
+		super (dateString);
+	}
+	public MfDateSubSubclass (Date arg){
+		super (arg.getTime());
+	}
+	Date nextDay(){
+		return new Date(getYear(),getMonth(),getDate()+1);
+	}
+	
+}

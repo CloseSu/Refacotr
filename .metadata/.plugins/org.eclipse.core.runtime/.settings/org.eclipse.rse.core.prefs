@@ -1,3 +1,4 @@
 activeuserprofiles=Su-PC;Team
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=Su
+useridperkey=Su-PC.Local\=Su;
