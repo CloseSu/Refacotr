@@ -1,8 +1,0 @@
-package InlineMethod;
-
-public class inlineMethod {
-	private int _numberOfLateDeliveries;
-	int Rating(){
-		return  _numberOfLateDeliveries > 5 ? 2:1;
-	}
-}

@@ -1,0 +1,11 @@
+package ReplaceTypeCodewithSubClass;
+
+public class Engineer extends Employee{
+	
+	private Engineer(){
+		
+	}
+	int getType(){
+		return Employee.ENGINEER;
+	}
+}
