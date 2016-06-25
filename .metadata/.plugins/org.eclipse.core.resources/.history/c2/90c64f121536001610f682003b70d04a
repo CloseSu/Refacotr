@@ -1,0 +1,24 @@
+package EncapsuLateCollection;
+
+import java.util.Iterator;
+import java.util.Set;
+
+public class Person {
+	private Set _courses;
+	
+	public void addCourse(Course arg){
+		_courses.add(arg);
+	}
+	public void removeCourse(Course arg){
+		_courses.remove(arg);		
+	}
+	public Set getCourses(){
+		return _courses;
+	}
+	public void initializeCourse(Set arg){
+		Iterator iter = arg.iterator();
+		while(iter.hasNext()){
+			addCourse((Course) iter.next());
+		}
+	}
+}

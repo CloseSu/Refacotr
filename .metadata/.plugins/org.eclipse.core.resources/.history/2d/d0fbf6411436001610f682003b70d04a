@@ -1,0 +1,17 @@
+package EncapsuLateCollection;
+
+import java.util.Set;
+
+public class Person {
+	private Set _courses;
+	
+	public void addCourse(){
+		
+	}
+	public Set getCourses(){
+		return _courses;
+	}
+	public void setCourses(Set arg){
+		_courses = arg;
+	}
+}

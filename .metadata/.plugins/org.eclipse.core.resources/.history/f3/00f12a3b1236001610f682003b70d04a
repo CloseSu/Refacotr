@@ -1,0 +1,17 @@
+package EncapsuLateCollection;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		Person kent = new Person();
+		Set s = new HashSet();
+		s.add(new Course("SmallTalk Programming",false));
+		s.add(new Course("Appreciating Single malts",true));
+		
+		
+	}
+
+}
