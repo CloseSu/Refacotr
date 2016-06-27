@@ -1,0 +1,6 @@
+package ReplaceTypeCodeWithState;
+
+abstract class EmployeeType {
+	abstract int getTpyeCode();
+	
+}

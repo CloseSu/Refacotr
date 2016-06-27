@@ -1,0 +1,35 @@
+package ReplaceTypeCodeWithState;
+
+public class Employee {
+	private EmployeeType _type;
+	static final int ENGINEER = 0;
+	static final int SALESMAN = 1;
+	static final int MANAGER = 2;
+	
+	Employee(int type){
+		_type = type;
+	}
+
+	public int getType() {
+		return _type;
+	}
+
+	public void setType(int _type) {
+		this._type = _type;
+	}
+	int _monthlySalary;
+	int _commossion;
+	int _bonus;
+	int payAmount(){
+		switch(getType()){
+		case ENGINEER:
+			return _monthlySalary;
+		case SALESMAN:
+			return _monthlySalary + _commossion;
+		case MANAGER:
+			return _monthlySalary + _bonus;
+		default:
+			throw new RuntimeException("Incorrect Employee");
+		}
+	}
+}

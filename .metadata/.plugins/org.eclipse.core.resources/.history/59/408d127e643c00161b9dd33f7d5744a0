@@ -1,0 +1,17 @@
+package ReplaceTypeCodeWithState;
+
+abstract class EmployeeType {
+	abstract int getTpyeCode();
+	static EmployeeType newType(int code){
+		switch(arg){
+		case ENGINEER:
+			_type = new Engineer();
+		case SALESMAN:
+			_type = new Salesman();
+		case MANAGER:
+			_type = new Manager();
+		default:
+			throw new IllegalArgumentException("Incorrect Employee Code");
+		}
+	}
+}
