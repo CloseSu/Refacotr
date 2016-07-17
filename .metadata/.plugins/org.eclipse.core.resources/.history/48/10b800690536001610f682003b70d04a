@@ -1,9 +1,0 @@
-package ChangeUndrectionalAssociationToBidirectional;
-
-public class Order {
-	private Customer _customer;
-	Customer getCustomer(){
-		return _customer;
-	}
-	
-}

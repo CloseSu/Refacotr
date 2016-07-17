@@ -1,7 +1,0 @@
-package IntroduceLocalExtension;
-
-import java.util.Date;
-
-public class MfDateWrap {
-	private Date _original;
-}

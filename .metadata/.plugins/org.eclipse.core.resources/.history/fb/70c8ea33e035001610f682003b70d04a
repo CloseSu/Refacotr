@@ -1,6 +1,0 @@
-package SelfEncapsulateField;
-
-public class IntRange {
-	private int _lowm,_High;
-	
-}

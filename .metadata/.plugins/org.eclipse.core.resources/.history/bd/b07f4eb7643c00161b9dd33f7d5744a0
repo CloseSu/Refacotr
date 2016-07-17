@@ -1,9 +1,0 @@
-package ReplaceTypeCodeWithState;
-
-public class Engineer extends EmployeeType{
-
-	int getTpyeCode() {
-		return Employee.ENGINEER;
-	}
-
-}

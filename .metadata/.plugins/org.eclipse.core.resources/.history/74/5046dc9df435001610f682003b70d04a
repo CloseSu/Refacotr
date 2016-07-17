@@ -1,6 +1,0 @@
-package ReplaceArrayWithObject;
-
-public class TestPerformance {
-	Perfomance row = new Perfomance();
-	row._data [0] = "liverpool";
-}

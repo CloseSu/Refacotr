@@ -1,9 +1,0 @@
-package ReplaceArrayWithObject;
-
-public class Perfomance {
-	public String[] _data = new String[3];
-
-	public String getName(){
-		return _data[0];
-	}
-}
